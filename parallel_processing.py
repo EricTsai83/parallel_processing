@@ -44,7 +44,7 @@ URL = 'http://scholar.princeton.edu/sites/default/files/oversize_pdf_test_0.pdf'
 urls = [URL for i in range(url_N)]
 
 
-# add 'base' parameter will seting, when Multithreading & Multiprocessing function call
+# 'base' parameter will seting, when Multithreading & Multiprocessing function call
 def download(url, base):
     start = time.time()-base # base parameter will be the begin time
     try:

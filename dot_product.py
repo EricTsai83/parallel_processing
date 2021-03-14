@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-MULTITHREADING_TITLE="Numpy Addition Multithreading"
-MULTIPROCESSING_TITLE="Numpy Addition Multiprocessing"
+MULTITHREADING_TITLE="Numpy Dot Product Multithreading"
+MULTIPROCESSING_TITLE="Numpy Dot Product Multiprocessing"
 
 
 def visualize_runtimes(results, title):
